@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="css/normalize.css" />
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/stylePhone.css"/>
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 992px)" href="css/styleTab.css"/>
+        <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/styleDesktop.css"/>
+        <title>Booki</title>
+    </head>
+
+    <body>
+        <header>
+            <img id="booki-logo" alt="" src="images/logo/Booki@3x.png">
+            <nav> <!-- Navigation principale du site -->
+                <ul id="Menu">
+                    <li><a href="#section2" class="liens-menu" >Hébergements</a></li>
+                    <li><a href="#section3" class="liens-menu" >Activités</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="sections" id="section1">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p id="p1"> En plein centre ville ou en pleine nature</p>
+                    <!-- Barre de recherche -->
+                    <form>
+                        <button id="LButton"></button>
+                        <input type="search" id="barre-de-recherche" placeholder="Marseille, France">
+                        <button id="bouton-recherche"><i id="loupe" class="fas fa-search"></i></button>
+                    </form>
+
+                <h3 id="titre-filtre">Filtres</h3>
+                <div id="boite-filtre">
+                    <button class="boutons-filtre"><i class="filtre-icones fas fa-money-bill-wave"></i>Économique</button>
+                    <button class="boutons-filtre"><i class="filtre-icones fas fa-child"></i>Familial</button>
+                    <button class="boutons-filtre"><i class="filtre-icones fas fa-heart"></i>Romantique</button>
+                    <button class="boutons-filtre"><i class="filtre-icones fas fa-dog"></i>Animaux autorisés</button>
+                </div>
+                <p id="p2"> <i id="info-icone" class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+            </section>
+            <section class="sections" id="section2">
+                <div id="hebergement-a-marseille-box">
+                    <h2 id="titre-hebergements-a-marseille">Hébergements à Marseille</h2>
+                    <div id="zone-parts"> 
+                    <div class="parts">
+                        <a href="" class="cartes cartes-hebergements-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-hebergements-a-marseille"><img alt="" class="images" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-hebergements-a-marseille">
+                                <h4 class="titres-cartes">Auberge La Cannebière</h4>
+                                <p class="PCartes">Nuit à partir de 25€</p>
+                                <div>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-negative fas fa-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="cartes cartes-hebergements-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-hebergements-a-marseille"><img alt="" class="images" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-hebergements-a-marseille">
+                                <h4 class="titres-cartes">Hôtel du port</h4>
+                                <p class="PCartes">Nuit à partir de 52€</p>
+                                <div>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="cartes cartes-hebergements-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-hebergements-a-marseille"><img alt="" class="images" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-hebergements-a-marseille">
+                                <h4 class="titres-cartes">Hôtel Les mouettes</h4>
+                                <p class="PCartes">Nuit à partir de 76€</p>
+                                <div>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-negative fas fa-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="parts">
+                        <a href="" class="cartes cartes-hebergements-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-hebergements-a-marseille"><img alt="" class="images" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-hebergements-a-marseille">
+                                <h4 class="titres-cartes">Hôtel de la mer</h4>
+                                <p class="PCartes">Nuit à partir de 46€</p>
+                                <div>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-negative fas fa-star"></i>
+                                    <i class="etoile-negative fas fa-star"></i>
+                                </div>
+                                    
+                            </div>
+                        </a>
+                        <a href="" class="cartes cartes-hebergements-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-hebergements-a-marseille"><img alt="" class="images" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-hebergements-a-marseille">
+                                <h4 class="titres-cartes">Auberge Le Panier</h4>
+                                <p class="PCartes">Nuit à partir de 23€</p>
+                                <div>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-negative fas fa-star"></i>
+                                </div>
+                                    
+                            </div>
+                        </a>
+                        <a href="" class="cartes cartes-hebergements-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-hebergements-a-marseille" ><img alt="" class="images" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-hebergements-a-marseille">
+                                <h4 class="titres-cartes">Hôtel chez Amina</h4>
+                                <p class="PCartes">Nuit à partir de 96€</p>
+                                <div>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                    <i class="etoile-positive fas fa-star"></i>
+                                </div>
+                                    
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div id="les-plus-populaire-box">
+                    <div id="conteneur-titre-logo">
+                        <h2 id="titre-les-plus-populaire">Les plus populaires</h2>
+                        <i id="logo-courbe" class="fas fa-chart-line fa-2x"></i>
+                    </div>
+                    <a href="" class="cartes cartes-les-plus-populaire">
+                        <div class="div-images-cartes div-images-cartes-les-plus-populaire" ><img alt="" class="images" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"></div>
+                        <div class="zone-textes-cartes-les-plus-populaire">
+                            <h4 class="titres-cartes">Hôtel Le soleil du matin</h4>
+                            <p class="PCartes">Nuit à partir de 128€</p>
+                            <div>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                            </div>
+                            
+                        </div>
+                    </a>
+                    <a href="" class="cartes cartes-les-plus-populaire">
+                        <div class="div-images-cartes div-images-cartes-les-plus-populaire" ><img alt="" class="images" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"></div>
+                        <div class="zone-textes-cartes-les-plus-populaire">
+                            <h4 class="titres-cartes">Au coeur de l'eau Chambre d'hôtes</h4>
+                            <p class="PCartes">Nuit à partir de 71€</p>
+                            <div>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-negative fas fa-star"></i>
+                            </div>
+                            
+                        </div>
+                    </a>
+                    <a href="" class="cartes cartes-les-plus-populaire">
+                        <div class="div-images-cartes div-images-cartes-les-plus-populaire" ><img alt="" class="images" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"></div>
+                        <div class="zone-textes-cartes-les-plus-populaire">
+                            <h4 class="titres-cartes">Hôtel Tout bleu et Blanc</h4>
+                            <p class="PCartes">Nuit à partir de 68€</p>
+                            <div>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-positive fas fa-star"></i>
+                                <i class="etoile-negative fas fa-star"></i>
+                            </div>
+                            
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="sections" id="section3">
+                <h2 id="titre-activites-a-marseille">Activités à Marseille</h2>
+                <div id="activites-a-marseille-box">
+                    <div class="triple-cartes">
+                        <a href="" class="cartes xxl-cartes-activites-a-marseille">
+                        <div class="div-images-cartes div-images-cartes-activites-a-marseile" ><img alt="" class="images" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-activites-a-marseille">
+                                <h4 class="titres-cartes">Vieux Port</h4>
+                            </div>
+                        </a>
+                        <div class="double-cartes">
+                        <a href="" class="cartes xl-cartes-activites-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-activites-a-marseile" ><img alt="" class="images" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-activites-a-marseille">
+                                <h4 class="titres-cartes">Fort de Pomègues</h4>
+                            </div>
+                        </a>
+                        <a href="" class="cartes xs-cartes-activites-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-activites-a-marseile" ><img alt="" class="images" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-activites-a-marseille">
+                                <h4 class="titres-cartes">Îles du Frioul</h4>
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                    
+                    <div class="triple-cartes">
+                        <a href="" class="cartes xxl-cartes-activites-a-marseille">
+                        <div class="div-images-cartes div-images-cartes-activites-a-marseile" ><img alt="" class="images" src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-activites-a-marseille">
+                                <h4 class="titres-cartes">Parc National des Calanques</h4>
+                            </div>
+                        </a>
+                        <div class="double-cartes">
+                        <a href="" class="cartes xs-cartes-activites-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-activites-a-marseile" ><img alt="" class="images" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-activites-a-marseille">
+                                <h4 class="titres-cartes">Notre-Dame-de-la-Garde</h4>
+                            </div>
+                        </a>
+                        <a href="" class="cartes xl-cartes-activites-a-marseille">
+                            <div class="div-images-cartes div-images-cartes-activites-a-marseile" ><img alt="" class="images" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"></div>
+                            <div class="zone-textes-cartes-activites-a-marseille">
+                                <h4 class="titres-cartes">Parc Longchamp</h4>
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="parties">
+                <h4>A propos</h4>
+                <ul class="footer-listes">
+                    <li><a class="footer-liens">Fonctionnement du site</a></li>
+                    <li><a class="footer-liens">Conditions générales de vente</a></li>
+                    <li><a class="footer-liens">Données et confidentialité</a></li>
+                </ul>
+            </div>
+            <div class="parties">
+                <h4>Nos hébergements</h4>
+                <ul class="footer-listes">
+                    <li><a class="footer-liens">Charte qualité</a></li>
+                    <li><a class="footer-liens">Soumettre votre hôtel</a></li>
+                </ul>
+            </div>
+            <div class="parties">
+                <h4>Assistance</h4>
+                <ul class="footer-listes">
+                    <li><a class="footer-liens">Centre d'aide</a></li>
+                    <li><a class="footer-liens">Nous contacter</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </body>
+</html>

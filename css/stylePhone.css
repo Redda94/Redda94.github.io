@@ -1,0 +1,418 @@
+body {
+  max-width: 500px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+  font-size: medium;
+  background-color: white;
+  box-sizing: border-box; /* Opera/IE 8+ */
+  -moz-box-sizing: border-box; /* Firefox, autres Gecko */
+  -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit */
+}
+/* *********************** ZONE DU HEADER ET TOUT SON CONTENUE ************************************** */
+header {
+  /*border: 3px red solid;*/
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  width: 100%;
+}
+#booki-logo {
+  width: 94px;
+  height: 44px;
+}
+#Menu {
+  /* background-color: green;*/
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+li {
+  width: 50%;
+}
+.liens-menu {
+  font-size: large;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-bottom: 4px #f2f2f2 solid;
+  padding-bottom: 10px;
+}
+.liens-menu:hover {
+  font-style: normal;
+  text-decoration: none;
+  color: #0065fc;
+  border-bottom: 4px #0065fc solid;
+}
+
+/* ***************************** CONTENUE DE TOUTE LA SECTION 1 ************************************ */
+h1 {
+  font-size: x-large;
+  width: 90%;
+}
+#p1 {
+  width: 90%;
+}
+/* Barre de recherches ------------------------ */
+form {
+  display: flex;
+  width: 100%;
+}
+#LButton {
+  background-image: url(/images/Icones/map-marker-alt-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-position: center;
+
+  background-color: #f2f2f2;
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  border-radius: 13px 0px 0px 13px;
+}
+#LButton::before {
+  content: "";
+}
+#bouton-recherche {
+  background-color: #0065fc;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border: 0px;
+  border-radius: 13px 13px 13px 13px;
+}
+#bouton-recherche::before {
+  content: "";
+}
+#barre-de-recherche {
+  border-left: 0px;
+  border-top: 1px #f2f2f2 solid;
+  border-bottom: 1px #f2f2f2 solid;
+  border-right: 0px;
+  width: 60%;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+  font-size: large;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+  font-size: large;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+  font-size: large;
+}
+#info-icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  color: #0065fc;
+  border: 2px #f2f2f2 solid;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+/* ----------- Filtre ------------------------------------ */
+#titre-filtre {
+  width: 100%;
+}
+#boite-filtre {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.boutons-filtre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 2.9em;
+  width: auto;
+  padding-right: 20px;
+  padding-left: 0px;
+  border: 2px lightgray solid;
+  border-left: 0;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 8px;
+  font-weight: bold;
+}
+.boutons-filtre:hover .filtre-icones {
+  background-color: #0065fc;
+  color: white;
+}
+.boutons-filtre:hover {
+  border-color: #0065fc;
+  color: #0065fc;
+}
+.filtre-icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0065fc;
+  border: 0;
+  border-radius: 100%;
+  width: 47px;
+  height: 47px;
+  margin-right: 20px;
+  margin-left: 0;
+  background-color: rgb(222, 235, 255);
+}
+/* ------------------------------------------- */
+#p2 {
+  display: flex;
+  width: 90%;
+  align-items: center;
+}
+/* ------------------------------------------------------------------ */
+/* ********************************************** SECTIONS *********************************** */
+.sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section1 {
+  padding-left: 20px;
+  flex-direction: column;
+}
+#section2 {
+  flex-direction: column-reverse;
+  height: auto;
+}
+#section3 {
+  flex-direction: column;
+}
+/* ************************************* BOÎTES DE CARTES ************************************ */
+
+#hebergement-a-marseille-box {
+  /* ------ Hébergement à Marseille ----------------- */
+  height: auto;
+  width: 100%;
+  border-radius: 25px;
+}
+#les-plus-populaire-box {
+  /* ------ Les plus populaire ---------------- */
+  background-color: #f2f2f2;
+  height: auto;
+  width: 100%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#conteneur-titre-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+#logo-courbe {
+  width: 25px;
+  margin-right: 20px;
+}
+#activites-a-marseille-box {
+  /* ----------- Activités à Marseille -------------------- */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 100%;
+}
+/***************************/
+.parts {
+  /* -------- rangées verticale  de cartes de #hebergement-a-marseille-box ----------- */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#titre-hebergements-a-marseille {
+  margin-left: 20px;
+}
+#titre-activites-a-marseille {
+  margin-left: 20px;
+}
+/* ****************************************************************************************** */
+
+/* ***************************************** CARTES ***************************************** */
+
+.cartes {
+  /* toutes les cartes */
+  display: flex;
+  box-shadow: 6px 6px 20px gray;
+  border-radius: 20px;
+  background-color: white;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+.cartes-hebergements-a-marseille {
+  /* carte individuelle */
+  flex-direction: column;
+  width: 90%;
+  height: 13em;
+  padding: 5px;
+}
+.cartes-les-plus-populaire {
+  /* carte individuelle */
+  justify-content: flex-start;
+  width: 90%;
+  height: 13em;
+  padding: 5px;
+}
+.xs-cartes-activites-a-marseille {
+  /* carte individuelle */
+  flex-direction: column;
+  width: 90%;
+  height: 13em;
+}
+.xl-cartes-activites-a-marseille {
+  /* carte individuelle */
+  flex-direction: column;
+  width: 90%;
+  height: 13em;
+}
+.xxl-cartes-activites-a-marseille {
+  /* carte individuelle */
+  flex-direction: column;
+  width: 90%;
+  height: 13em;
+}
+/* ------------------------------------- */
+.double-cartes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.triple-cartes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+/* *********************************************************************************************** */
+
+/* **************************   DIV IMAGES   ***************************************************** */
+.div-images-cartes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.div-images-cartes-hebergements-a-marseille {
+  width: 100%;
+  height: 12em;
+  border-radius: 20px 20px 0px 0px;
+}
+.div-images-cartes-les-plus-populaire {
+  width: 45%;
+  height: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+.div-images-cartes-activites-a-marseile {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* -------- Images --------- */
+.images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ************************************************************************************************* */
+
+/* ****************************** ZONE DE TEXTES DES CARTES **************************************** */
+
+.zone-textes-cartes-hebergements-a-marseille {
+  height: 8em;
+  width: 100%;
+  margin: 0em;
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.zone-textes-cartes-les-plus-populaire {
+  width: 45%;
+  height: 100%;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.zone-textes-cartes-activites-a-marseille {
+  padding-left: 20px;
+  width: 100%;
+  height: 2em;
+  margin: 1em;
+}
+
+/* --------------------------- */
+.titres-cartes {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.PCartes {
+  /* *********** Paragraphes des cartes ****** */
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+.etoile-positive {
+  color: #0065fc;
+}
+.etoile-negative {
+  color: lightgray;
+}
+/* ************************************************************************************************* */
+
+footer {
+  background-color: #f2f2f2;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+.footer-listes {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.footer-liens {
+  display: block;
+  padding-bottom: 10px;
+}
+
+/**/
